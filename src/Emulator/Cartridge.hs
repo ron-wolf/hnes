@@ -4,7 +4,7 @@ module Emulator.Cartridge (
   , parse
 ) where
 
-import           Control.Applicative         ((<$>), (<*>))
+import           Control.Applicative         ((<*>))
 import           Control.Monad               (liftM2)
 import           Control.Monad.ST
 import           Data.Bits
